@@ -1,4 +1,10 @@
-# This syntax is invalid in python3, so we use a separate file and only import
-# it in python 2
+"""
+Utility functions which are valid syntax in python 2 but not python 3.
+
+This module is only imported when running in python 2.
+"""
+
+
 def reraise(exctype, value, trace=None):
+    """re-raise an exception with the original traceback."""
     raise exctype, str(value), trace
