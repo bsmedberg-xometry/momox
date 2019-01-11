@@ -18,3 +18,17 @@ A mongo model layer for python that is fast, reliable, and safe.
   * Don't support dynamic polymorphism. Static inheritance is ok though!
 
 Much of this project is inspired by and some was copied from [pymodm](https://github.com/mongodb/pymodm).
+
+## Installation
+
+Use pip install.
+
+## Targeted Environments
+
+* python 2.7
+* python 3.6+
+
+## Development
+
+Use `tox` to run the linter and tests in all our supported environments. You
+will need to have python 2.7, 3.6, and 3.7 installed.
